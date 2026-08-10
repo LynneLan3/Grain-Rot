@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://grain-rot.vercel.app/sitemap.xml
+Sitemap: https://grainrot.vercel.app/sitemap.xml
