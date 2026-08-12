@@ -32,6 +32,8 @@ export interface GameConfig {
 	platforms: readonly string[];
 	accentColor: string;
 	heroImage?: string;
+	heroAlt?: string;
+	heroPosition?: string;
 	logoImage?: string;
 	categories: readonly GameCategory[];
 	portal?: GamePortalConfig;
@@ -51,6 +53,9 @@ export const game: GameConfig = {
 	publisher: 'Neem',
 	platforms: ['Windows PC via Steam'],
 	accentColor: '#9a3412',
+	heroImage: 'hero.jpg',
+	heroAlt: 'Official Steam screenshot for GRAIN ROT',
+	heroPosition: 'center 45%',
 	portal: {
 		popularQuestions: [
 			{ label: 'What is GRAIN ROT?', href: '/grain-rot/game/' },
